@@ -14,14 +14,9 @@ This project aims to use Machine Learning methods to predict the Default rate of
    * **Feature Transformation:** Imputing and Encoding
 
  * **Model Training:**
-   * Trained three models and compared:
-     * **Random Forest** using random search method;
-     * **XGBoost** using Bayesian Optimization method;
-     * **LightGBM** using Bayesian Optimization method;
+   * Trained **LightGBM** using Bayesian Optimization method;
    * **Model Calibration**
 
 
-## Files description: 
-We trained our models in three separate jupyter notebooks. File **Amex_Default_prediction_notebook.ipynb** contains both the model training part and the previous steps in the contents; file **Random_Forest_Model.ipynb** contains random forest model training; file **XGBoost_Model.ipynb** contains XGBoost model training. 
 
 The **Original dataset** can be found in the Kaggle project link, and the **Preprocessed dataset**(trained on models) can be found at: https://www.kaggle.com/datasets/christal559/aml4995
